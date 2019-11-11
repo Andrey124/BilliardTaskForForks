@@ -13,7 +13,8 @@ namespace Billiards
         public static double BounceWall(double directionRadians, double wallInclinationRadians)
         {
             //TODO
-            return 0.0;
+            double result = (2 * wallInclinationRadians) - directionRadians;
+            return result;
         }
     }
 }
